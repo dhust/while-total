@@ -6,21 +6,21 @@ Re-arrange the blocks so that the program asks the user to continuously enter nu
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p id="buttons"> 
-    <input id="feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="feedbackLink" class="button" value="Get Feedback" type="button" /> 
+    <input id="newInstanceLink" class="button" value="Reset Problem" type="button" /> 
 </p>
 
 <style>
     #buttons {
         padding-left: 32px;
     }
-   input {
+   .button {
         padding: 8px 16px;
         border: 2px solid transparent;
         border-radius: 12px;
         font-size: 18px;
     }
-    input:hover {
+    .button:hover {
         cursor: pointer;
     }
 
