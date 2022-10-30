@@ -11,23 +11,43 @@ Re-arrange the blocks so that the program asks the user to continuously enter nu
 </p>
 
 <style>
-   #feedbackLink {
-        background: green;
-        color: white;
-        padding: 16px;
+   button {
+        padding: 8px 16px;
         border: 2px solid transparent;
         border-radius: 12px;
+        font-size: 18px;
     }
-    #feedbackLink:hover {
+    button:hover {
         cursor: pointer;
-        background: white;
-        color: green;
-        border: 2px solid green;
     }
 
-    #feedbackLink:active {
-        outline: 2px solid green;
+    #feedbackLink {
+        background: #C4B454;
+        color: white;
     }
+    #feedbackLink:hover {
+        color: #C4B454;
+        background: white;
+        border: 2px solid #C4B454;
+    }
+    #feedbackLink:active {
+        outline: 2px solid #C4B454;
+    }
+
+    #newInstanceLink {
+        background: #222;
+        color: white;
+    }
+    #newInstanceLink:hover {
+        color: #222;
+        background: white;
+        border: 2px solid #222;
+    }
+
+    #newInstanceLink:active {
+        outline: 2px solid #222;
+    }
+
 </style>
 
 <script type="text/javascript"> 
