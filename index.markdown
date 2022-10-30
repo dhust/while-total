@@ -1,4 +1,3 @@
-# Stuff up here
 Re-arrange the blocks so that the program asks the user to continuously enter numbers, add them all up, and then stop asking when the total exceeds 20.
 
 
