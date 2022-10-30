@@ -1,6 +1,5 @@
 # Directions
-Re-arrange the blocks so that the program asks the user to continuously enter numbers, add them all up, and then stop asking when the total exceeds 20.
-
+Re-arrange the blocks so that the program asks the user to continuously enter numbers, add them all up, and then stop asking when the total exceeds 20.\
 
 # Code
 <div id="sortableTrash" class="sortable-code"></div> 
@@ -9,7 +8,14 @@ Re-arrange the blocks so that the program asks the user to continuously enter nu
 <p> 
     <input id="feedbackLink" value="Get Feedback" type="button" /> 
     <input id="newInstanceLink" value="Reset Problem" type="button" /> 
-</p> 
+</p>
+
+<style>
+    #feedbackLink {
+        background: green;
+    }
+</style>
+
 <script type="text/javascript"> 
 (function(){
   var initial = "total = 0\n" +
