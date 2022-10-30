@@ -26,10 +26,10 @@ Re-arrange the blocks so that the program asks the user to continuously enter nu
 
     #feedbackLink {
         background: #C4B454;
-        color: white;
+        color: #222;
     }
     #feedbackLink:hover {
-        color: #C4B454;
+        color: #222;
         background: white;
         border: 2px solid #C4B454;
     }
