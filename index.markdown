@@ -1,5 +1,5 @@
 # Directions
-Re-arrange the blocks so that the program asks the user to continuously enter numbers, add them all up, and then stop asking when the total exceeds 20.
+Re-arrange the blocks so that the program asks the user to continuously enter numbers, adds them all up, and then stops asking when the total exceeds 20.
 
 # Code
 <div id="sortableTrash" class="sortable-code"></div> 
