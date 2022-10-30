@@ -11,8 +11,22 @@ Re-arrange the blocks so that the program asks the user to continuously enter nu
 </p>
 
 <style>
-    #feedbackLink {
+   #feedbackLink {
         background: green;
+        color: white;
+        padding: 16px;
+        border: 2px solid transparent;
+        border-radius: 12px;
+    }
+    #feedbackLink:hover {
+        cursor: pointer;
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+
+    #feedbackLink:active {
+        outline: 2px solid green;
     }
 </style>
 
