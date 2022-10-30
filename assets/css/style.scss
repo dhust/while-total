@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+body {
+  color: red;
+}
+
 .sortable-code {
   width: 56%;
 }
