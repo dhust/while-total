@@ -14,13 +14,13 @@ Re-arrange the blocks so that the program asks the user to continuously enter nu
     #buttons {
         padding-left: 32px;
     }
-   button {
-        padding: 16px;
+   input {
+        padding: 8px 16px;
         border: 2px solid transparent;
         border-radius: 12px;
         font-size: 18px;
     }
-    button:hover {
+    input:hover {
         cursor: pointer;
     }
 
